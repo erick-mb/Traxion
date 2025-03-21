@@ -47,7 +47,7 @@ docker build -t prediccion-renuncia-app .
 
 ### **4. Ejecutar el contenedor**
 ```
-docker run -p 5000:5000 --name prediccion_app prediccion-renuncia-app
+docker run -p 5000:5000 prediccion-renuncia-app
 ```
 
 ## 🚀 **Acceder a la aplicación**

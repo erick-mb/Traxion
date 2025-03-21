@@ -30,19 +30,18 @@ Este proyecto es una aplicación web construida con Flask para predecir si un em
 ### **1. Descargar y Descomprimir el Proyecto**
 Descargar el archivo Docker.zip (incluido en el repositorio) y descomprimirlo en una carpeta de tu preferencia.
 
-### **2. Construir la Imagen Docker**
+### **2. Obtener la ruta de la carpeta descargada y construir la Imagen Docker**
 
 Abrir Docker Desktop y acceder a la terminal. Luego, navegar al directorio donde se descomprimió el proyecto.
 
 Construir la imagen de Docker usando el siguiente comando:
 ```
-cd 'Insertar la ruta del directorio donde se descomprimió la carpeta'\Docker\
+cd 'Insertar la ruta del directorio donde se descomprimió la carpeta'
 docker build -t prediccion-renuncia-app .
 ```
 
-### **3. Obtener la ruta de la carpeta descargada y armar el contenedor**
+### **3. Armar el contenedor**
 ```
-cd \Docker\
 docker build -t prediccion-renuncia-app .
 ```
 

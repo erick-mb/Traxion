@@ -46,7 +46,7 @@ cd \Docker\
 docker build -t prediccion-renuncia-app .
 ```
 
-### **3. Ejecutar el contenedor**
+### **4. Ejecutar el contenedor**
 ```
 docker run -p 5000:5000 --name prediccion_app prediccion-renuncia-app
 ```
